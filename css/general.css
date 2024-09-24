@@ -1,0 +1,47 @@
+.section {
+ display: flex;
+ flex-direction: column;
+ align-items: center; 
+}
+
+.margin-y {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.padding-y-small {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-title {
+  font-size: 60px;
+}
+
+.three-column-section .img-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-circle {
+  clip-path: circle();
+}
+.dark-section {
+  background: #333;
+  width: 100%;
+  color: #fff;
+}
+.dark-section a {
+  color: #ddd;
+}
+.dark-section a:hover {
+  color: #fff;
+}
+.footer-section, .top-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
