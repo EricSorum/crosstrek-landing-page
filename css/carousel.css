@@ -3,11 +3,13 @@
   object-fit: cover;
   min-width: 100%;
 }
+
 @media (min-width: 600px) and (max-width: 767px) {
   .carousel-inner-box .slide-image {
     max-height: 400px;
   }
 }
+
 @media (min-width: 768px) {
   .carousel-inner-box .slide-image {
     max-height: 600px !important;
