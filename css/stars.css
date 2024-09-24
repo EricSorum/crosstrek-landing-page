@@ -1,0 +1,15 @@
+.main-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.main-stars img {
+  max-width: 60px;
+  max-height: 60px;
+}
+@media (min-width: 992px) {
+  .main-stars {
+    justify-content: flex-end;
+  }
+}
